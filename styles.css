@@ -4,8 +4,17 @@
             border-style: inset;
             background-color: #e6e4df;}
 
+@font-face {
+  font-family: pirateFont;
+  src: url(PirataOne-Regular.ttf);
+}
+
 h1 {text-align: center;}
-p {text-align: center;}
+
+p {text-align: center;
+    font-size: 24px;
+    font-family: "pirateFont"}
+
 img {margin-left: auto;
      margin-right: auto;
      display: block;
